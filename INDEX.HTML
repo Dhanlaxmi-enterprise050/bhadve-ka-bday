@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAKCHOD KA BIRHTDAY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <div id="particles-bg"></div>
+
+    <audio id="bg-music" loop>
+        <source src="your-cinematic-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="loader">
+        <h1 class="glitch" data-text="INITIALIZING_MEMORIES...">INITIALIZING_MEMORIES...</h1>
+    </div>
+
+    <main>
+        <section id="hero" class="hidden">
+            <h1 class="neon-text glitch-hero" data-text="HAPPY BIRTHDAY BALMA 🎉">HAPPY BIRTHDAY BALMA 🎉</h1>
+            <p class="subtitle typing-effect">Kuch friendships randomly start hoti hain...<br>Aur kuch lagta hai Bhagwan ne <span class="highlight">Ctrl+C Ctrl+V</span> maara ho.</p>
+            <p class="scroll-prompt">Scroll down, bc 👇</p>
+        </section>
+
+        <section id="origin" class="hidden">
+            <h2 class="section-title">&lt;Origin_Story /&gt;</h2>
+            <div class="timeline">
+                <div class="timeline-item glassmorphism">
+                    <div class="date neon-purple">24 DEC 2025</div>
+                    <h3>Mission: 3D Ram Mandir 🛕</h3>
+                    <p>Project karte karte bhai ban gaye. School ka stress aur pura chaos ek saath survive kiya. That's where the legend began.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="real-one" class="hidden">
+            <h2 class="section-title">THE <span class="highlight">REAL ONE</span></h2>
+            <div class="emotional-card glassmorphism">
+                <p>English exam wale din mera digest kho gaya tha.<br><br>
+                Maine literally sabko call/message kiya. Kisi ne properly help nahi kari. <br><br>
+                Par khud ki problems hone ke baad bhi <strong>Balma</strong> ne important photos bheje. <br><br>
+                Aur woh cheez genuinely yaad reh gayi bhai. 🫂</p>
+            </div>
+        </section>
+
+        <section id="balma-exe" class="hidden">
+            <h2 class="section-title terminal-header">C:\Users\Balma\stats.exe</h2>
+            <div class="terminal-window glassmorphism">
+                <div class="terminal-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-content">
+                    <p>> Loading traits...</p>
+                    <ul>
+                        <li><span class="keyword">const</span> animeAddict = <span class="boolean">true</span>;</li>
+                        <li><span class="keyword">let</span> freeFireGrind = <span class="string">"100%"</span>;</li>
+                        <li><span class="keyword">const</span> minecraftEnjoyer = <span class="boolean">true</span>;</li>
+                        <li><span class="keyword">var</span> memerStatus = <span class="string">"Certified"</span>;</li>
+                        <li><span class="keyword">class</span> Vibe { chaos = <span class="string">"MAX"</span>; realness = <span class="string">"100%"</span>; }</li>
+                        <br>
+                        <p class="comment">// Same mindset as mine. Feels more real than most log.</p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="hidden">
+            <h2 class="section-title">ACHIEVEMENTS UNLOCKED 🏆</h2>
+            <div class="cards-grid">
+                <div class="glass-card glow-hover">
+                    <h3>🏫 School Survivor</h3>
+                    <p>Survived the flawed education system without losing sanity.</p>
+                </div>
+                <div class="glass-card glow-hover">
+                    <h3>🤡 Pro Bakchod</h3>
+                    <p>Serious moments ko easily meme bana deta hai.</p>
+                </div>
+                <div class="glass-card glow-hover">
+                    <h3>🛠️ Project Veteran</h3>
+                    <p>Ram Mandir project survivor level 99.</p>
+                </div>
+                <div class="glass-card glow-hover">
+                    <h3>💀 Emotional Damage</h3>
+                    <p>Official distributor of emotional damage to enemies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="secret" class="hidden">
+            <button id="secret-btn" class="glow-button">Mat daba isko 👀</button>
+        </section>
+
+        <section id="ending" class="hidden">
+            <p class="ending-text">Ram Mandir project banate banate...<br>Ek <span class="highlight">solid friendship</span> bhi ban gayi.</p>
+        </section>
+    </main>
+
+    <div id="secret-overlay" class="overlay-hidden">
+        <div class="overlay-content">
+            <h2>Thank you bhai.</h2>
+            <p>Tu sirf friend nahi hai.<br>
+            Tu un rare logon me se hai jo actually real lagte hain.<br>
+            No fake vibes. No pretending.<br>
+            Bas loyalty, bakchodi aur understanding.</p>
+            <h3 class="neon-text">Happy Birthday Balma ❤️</h3>
+            <button id="close-overlay">Close Window</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
